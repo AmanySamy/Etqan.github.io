@@ -226,5 +226,24 @@ header .logo {
   background: #f7f7f7;
 }
 
+.services .ser-row {
+  margin-top: 35px;
+}
+
+.services h3 {
+  color: #03805E;
+}
+
+.services i {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  color: #FFF;
+  background: #03805E;
+  line-height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
 /*=============End Services Section==============*/
 /*# sourceMappingURL=style.css.map */
