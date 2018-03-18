@@ -20,6 +20,19 @@ body{
 	align-items: center;
 	display: flex;
 }
+section{
+	padding: 80px 0px;
+	.sec-title{
+		font-size: 30px;
+		margin-bottom: 35px;
+	}
+	.sec-desc{
+		line-height: 1.55;
+		color: #333;
+		font-size: 400;
+		font-family: "Raleway", Helvetica, Arial, sans-serif;
+	}
+}
 /*=============End Our Framework ==============*/
 
 /*=============End Our Framework ==============*/
@@ -167,17 +180,6 @@ header{
 
 /*=============Start About Section==============*/
 .about{
-	padding: 80px 0px;
-	.sec-title{
-		font-size: 30px;
-		margin-bottom: 35px;
-	}
-	.sec-desc{
-		line-height: 1.55;
-		color: #333;
-		font-size: 400;
-		font-family: "Raleway", Helvetica, Arial, sans-serif;
-	}
 	.stats-row {
 		margin-top: 65px;
 		.stats-col{
@@ -213,3 +215,9 @@ header{
 	}
 }
 /*=============End About Section==============*/
+
+/*=============Start Services Section==============*/
+.services{
+	background: #f7f7f7;
+}
+/*=============End Services Section==============*/

@@ -1,4 +1,3 @@
-@import url("flexslider.css");
 /* Global */
 /*=============Start Our Framework ==============*/
 .overlay {
@@ -17,6 +16,22 @@
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+section .sec-title {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+section .sec-desc {
+  line-height: 1.55;
+  color: #333;
+  font-size: 400;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
 /*=============End Our Framework ==============*/
@@ -170,22 +185,6 @@ header .logo {
 
 /*=============End Header==============*/
 /*=============Start About Section==============*/
-.about {
-  padding: 80px 0px;
-}
-
-.about .sec-title {
-  font-size: 30px;
-  margin-bottom: 35px;
-}
-
-.about .sec-desc {
-  line-height: 1.55;
-  color: #333;
-  font-size: 400;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-}
-
 .about .stats-row {
   margin-top: 65px;
 }
@@ -222,4 +221,10 @@ header .logo {
 }
 
 /*=============End About Section==============*/
+/*=============Start Services Section==============*/
+.services {
+  background: #f7f7f7;
+}
+
+/*=============End Services Section==============*/
 /*# sourceMappingURL=style.css.map */
